@@ -13,6 +13,8 @@ git clone https://github.com/eriksid/Projeto-cadastro-de-pedidos.git
 cd Projeto-cadastro-de-pedidos
 composer install
 npm i
+edit all DB_* on file .env
+php artisan key:generate
 php artisan migrate
 ```
 ## Run
